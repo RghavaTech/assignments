@@ -14,5 +14,7 @@ let fruits = ["apple","mango","grapes"]
 
 fruits.push('peach');
 
-let empInfo = [101,'philips',true];
+let empInfo: (number| string | boolean)[] = [101,'philips',true];
+
 console.log(typeof(empInfo));
+
