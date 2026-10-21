@@ -21,9 +21,9 @@ console.log(`employee visa status: ${employeeInfo.visaStatus}`);
 
 let stdInfo : {} = {};
 
-stdInfo.firstNAme = 'Luffy';
+employeeInfo.firstName = 'Luffy';
 
-console.log(stdInfo);
+console.log(employeeInfo.firstName);
 
 
 
