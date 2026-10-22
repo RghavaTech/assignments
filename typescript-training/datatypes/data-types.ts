@@ -12,4 +12,18 @@ let empInfo : string = "Employee first name is " + firstname + ",and second name
 
 let newEmpInfo: string = `Employee first name is ${firstname}, and second name is ${secondname}`;
 
-console.log(newEmpInfo)
+console.log(newEmpInfo);
+
+// boolean
+
+let isJavascriptFun : boolean = true;
+let isSkygreen : boolean = false;
+
+// undefined
+let empAge : undefined;
+console.log(empAge);
+
+// null
+
+let salary :null = null;
+console.log(salary);
